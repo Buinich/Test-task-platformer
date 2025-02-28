@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88a0406f069248bca55a2f41a05aa51a, type: 3}
+  m_Name: PlayerConfig
+  m_EditorClassIdentifier: 
+  MoveSpeed: 4
+  JumpForce: 8
+  CoyoteTime: 0.2
+  JumpBufferTime: 0.1
+  GroundCheckRadius: 0.3
+  TimeToMaxJump: 0.1
+  MaxHealth: 100
+  GroundLayer:
+    serializedVersion: 2
+    m_Bits: 128
